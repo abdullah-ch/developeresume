@@ -2,17 +2,18 @@ export interface IData {
 	header: {
 		name: string;
 		phoneNumber: string;
-		location: string;
+		location?: string;
 		email: string;
 		linkedIn: string;
 		github: string;
+		website?: string
 	};
 	education: {
 		id: string;
 		degree: string;
 		university: string;
 		location: string;
-		duration: string;
+		duration?: string;
 	}[];
 	skills: {
 		id: string;
@@ -25,6 +26,7 @@ export interface IData {
 		company: string;
 		location: string;
 		duration: string;
+		companyLink?: string;
 		tasks: string[];
 	}[];
 	projects: {
