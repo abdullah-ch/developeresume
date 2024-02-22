@@ -136,6 +136,10 @@ const userData: IData = {
 		`I am one of the top <strong>10 percent</strong> software engineers with more than <strong>174 upvotes</strong> on <a href="https://stackoverflow.com/users/13708712/abdullah-ch">Stackoverflow</a>. My Questions and Answers have impacted more than <strong>5.8 million</strong> software engineers all around the world.`,
 		`Selected as 1 of 40 Fellows out of a pool of 2k+ applicants for the inaugural <a href="https://www.linkedin.com/company/ventureforpakistan/">Venture For Pakistan</a> Fellows S21 Cohort.`,
 		`I contribute on <a href="https://github.com/abdullah-ch">Github</a> with different JavaScript Technologies. My projects have gained more than a 100 stars collectively.`,
+		`First Microsoft Ambassador from ITU. I have given 10+ talks
+		regarding Git, GitHub and Hacktoberfest Challenge,
+		teaching students how to contribute to open-source
+		world.`,
 		`Participating in Hactoberfest challenge since 2018.`
 	]
 };
