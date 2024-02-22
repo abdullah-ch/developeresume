@@ -6,7 +6,7 @@ const Experience = () => {
 	const { experience } = data;
 
 	const handleCompanyNameClick = (companyUrl: string) => () =>
-		(window.location.href = `https://${companyUrl}`);
+		`https://${companyUrl}`;
 
 	return (
 		<div>
@@ -20,13 +20,14 @@ const Experience = () => {
 						<span>{exp.duration}</span>
 					</div>
 					<IF condition={!!exp?.companyLink}>
-						<div
-							onClick={handleCompanyNameClick(
-								exp?.companyLink || ''
-							)}
-							className="flex justify-between cursor-pointer"
-						>
-							<h3 className="text-blue-500">{exp.company}</h3>
+						<div className="flex justify-between cursor-pointer">
+							<a
+								href={handleCompanyNameClick(
+									exp?.companyLink || ''
+								)()}
+							>
+								<h3 className="text-blue-500">{exp.company}</h3>
+							</a>
 							<em>{exp.location}</em>
 						</div>
 					</IF>
