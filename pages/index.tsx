@@ -22,8 +22,8 @@ export default function Home() {
 			</Head>
 			<div className="bg-white min-h-screen text-black space-y-3 font-light">
 				<Header />
-				{data.experience.length ? <Experience /> : null}
 				{data.education.length ? <Education /> : null}
+				{data.experience.length ? <Experience /> : null}
 				{data.projects.length ? <Projects /> : null}
 				{data.skills.length ? <Skills /> : null}
 				{data.accomplishments.length ? <Accomplishments /> : null}

@@ -53,16 +53,30 @@ const userData: IData = {
 	experience: [
 		{
 			id: uuidv4(),
-			designation: 'Software Engineer',
+			designation: 'Senior Software Engineer',
+			company: 'Rana Dev',
+			companyLink: "ranadev.io/",
+			location: 'USA | Remote',
+			duration: 'Mar 2024 - Present',
+			tasks: [
+
+				`Engineered RESTful APIs for a FinTech application to onboard individual and company customers with third-party banking partners, utilizing Nest.js and MongoDB for secure and seamless data exchange, reducing onboarding time by <strong>40%</strong> and increasing completion rates by <strong>30%</strong>.`,
+				`Intergrated <strong>Know Your Customer</strong> (KYC) and <strong>Customer Due Diligence</strong> (CDD) services, helping global banking clients meet strict regulatory standards using Nest Js, GraphQL and MongoDB`,
+				`Developed and implemented unit tests using Jest in Nest Js, achieving over <strong>90%</strong> test coverage for new features, significantly reducing production bugs, and enhancing application stability.`, `Engineered and optimized frontend components for banking application onboarding using Next.js, integrating GraphQL, Redux Toolkit, and React Hook Form for streamlined data management and secure, user- friendly interactions.`
+			]
+		},
+		{
+			id: uuidv4(),
+			designation: 'Software Engineer II',
 			company: 'Dubizzle',
 			companyLink: "dubizzle.com",
 			location: 'Dubai, UAE',
-			duration: 'Jan 2023 - Present',
+			duration: 'Jan 2023 - Mar 2024',
 			tasks: [
-				`Designed and developed headless reusable components in React JS and Next JS, enhancing code maintainability and flexibility through the implementation of <strong>Design patterns.</strong>`,
-				`Elevated code quality and maintainability by refactoring component code, converting to TypeScript, and implementing static type checking.`,
-				`Engineered the Car Auction Negotiation Feature using Firebase, contributing to Dubizzle Car Service's monthly revenue surpassing <strong>$1 Million</strong>.`,
-				`Collaborated with cross-functional teams, translating stakeholder requirements into actionable development plans for successful project outcomes.`,
+				`Engineered <a href = "https://www.dubizzle.com/cars/services/sell-my-car">Dubizzle's Car Ad Post Feature</a> by developing dynamic forms using Formik in React with Redux Toolkit, significantly enhancing the car buying and selling process, that led to a contribution towards <strong>$1 M</strong> monthly revenue.`,
+				`Engineered the Car Auction Negotiation Feature using Firebase, significantly enhancing the user experience for over <strong>100,000 users</strong> on the Dubizzle Car Service platform.`,
+				`Implemented Call Quality Control (QC) feature using custom hooks and factory, decorator patterns in React, for supervising Dubizzle Cars field agents, leading to a <strong>20%</strong> increase in the closing rate of sales leads by enhancing the quality and consistency of customer interactions.`,
+				`Elevated code quality and maintainability by refactoring component code to TypeScript, improving <strong>50% </strong> of the codebase and reducing bugs significantly.`
 			]
 		},
 		{
@@ -73,27 +87,14 @@ const userData: IData = {
 			location: 'USA | Remote',
 			duration: 'Sept 2021 - Jan 2023',
 			tasks: [
-				`Optimized Webapp's bundle size by <strong>15%</strong> through lazy loading, CSS purging, and migration to lightweight libraries, resulting in a faster loading time and enhanced user experience.`,
-				`Implemented <strong>Refresh Token Rotation based Authentication</strong> for enhanced API security in Node JS, demonstrating commitment to data confidentiality and reducing the risk of data breaches.`,
+				`Optimized Webapp's bundle size by <strong>15%</strong> through lazy loading, CSS purging, and migration to lightweight libraries in Vue js, resulting in a faster loading time and enhanced user experience.`,
+				`Implemented <strong>Refresh Token Rotation</strong> based Authentication in Node.js to enhance API security, significantly reducing the risk of data breaches and strengthening data confidentiality.`
+				,
 				`Developed a scalable WebSocket server with Node.js and the WS library, integrated with RabbitMQ for <strong>Streaming real-time tickers'</strong> information and notifications. Monitored client heartbeat and efficiently <strong>pruned idle connections</strong> to conserve resources.`,
 				`Designed reusable UI components in Vue.js with the <strong>Decorator Pattern</strong>, improving code maintainability and development efficiency across multiple projects.`,
 			]
 		},
-		{
-			id: uuidv4(),
-			designation: 'Full Stack Software Engineer (MERN)',
-			company: 'BigOSoft',
-			companyLink: 'bigosoft.us/',
-			location: 'USA | Remote',
-			duration: 'May 2021 - Sep 2021',
-			tasks: [
-				`Built reusable React components with decoupled logic and UI layers using Hooks, enhancing code maintainability and development efficiency.`,
-				`Contributed to React-based POS and website front-end development using <strong>TypeScript and Material UI</strong>, delivering high-quality, responsive interfaces through collaboration with cross-functional teams.`,
-				`Created efficient and scalable RESTful APIs to support seamless communication between systems, ensuring productivity and minimizing downtime.`,
-			]
-		},
 	],
-	
 	projects: [
 		{
 			id: uuidv4(),
@@ -108,14 +109,13 @@ const userData: IData = {
 		{
 			id: uuidv4(),
 			name: `<a href="https://github.com/abdullah-ch/Anime-Tracker-Web-App">Anime Tracker Web App</a>`,
-			desc: `Designed and developed a responsive web application that allows users to <strong>browse, search, and discover anime titles.</strong> The app features a clean user interface and intuitive navigation and includes daily release updates, top-rated titles, and upcoming releases. Leveraging <strong>React, Redux, and RESTful APIs.</strong> Implemented features such as <strong>advanced search functionality, browsing by genre, and seasonal anime catalogs.</strong>`,
+			desc: `Developed a responsive web app for browsing, searching, and discovering anime titles, featuring a clean UI with daily updates, top-rated lists, and upcoming releases. Leveraged React, Redux, and RESTful APIs to implement <strong>advanced search, genre browsing, and seasonal catalogs</strong>.`
+			,
 		},
 	],
-	accomplishments : [
-		`Ranked among the top 10 percent of software engineers, earning over 174 upvotes on <a href="https://stackoverflow.com/users/13708712/abdullah-ch">Stackoverflow</a>. Contributions through questions and answers have positively impacted more than 5.8 million software engineers worldwide.`,
-		`Selected as one of 40 Fellows from a pool of 2,000+ applicants for the inaugural <a href="https://www.linkedin.com/company/ventureforpakistan/">Venture For Pakistan</a> Fellows S21 Cohort.`,
+	accomplishments: [
+		`Ranked among the top 10 percent of software engineers, earning over 210+ upvotes on <a href="https://stackoverflow.com/users/13708712/abdullah-ch">Stackoverflow</a>. Contributions through questions and answers have positively impacted more than <strong>6 million</strong> software engineers worldwide.`,
 		`Established a notable presence on <a href="https://github.com/abdullah-ch">GitHub</a> with diverse JavaScript technology contributions, collectively amassing over 100 stars for my projects.`,
-		`Pioneered as the first Microsoft Ambassador from ITU, delivering over 10 talks on Git, GitHub, and the Hacktoberfest Challenge.`
 	]
 };
 
