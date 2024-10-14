@@ -35,6 +35,7 @@ const userData: IData = {
 				'CSS',
 				'React',
 				'Next.js',
+				'NestJS',
 				'Express.js',
 				'Redux Toolkit',
 				'Tailwind CSS',
@@ -59,8 +60,7 @@ const userData: IData = {
 			location: 'USA | Remote',
 			duration: 'Mar 2024 - Present',
 			tasks: [
-
-				`Engineered RESTful APIs for a FinTech application to onboard individual and company customers with third-party banking partners, utilizing Nest.js and MongoDB for secure and seamless data exchange, reducing onboarding time by <strong>40%</strong> and increasing completion rates by <strong>30%</strong>.`,
+				`Engineered RESTful APIs for a FinTech application to onboard individual and company customers with third-party banking partners, utilizing NestJS and MongoDB for secure and seamless data exchange, reducing onboarding time by <strong>40%</strong> and increasing completion rates by <strong>30%</strong>.`,
 				`Intergrated <strong>Know Your Customer</strong> (KYC) and <strong>Customer Due Diligence</strong> (CDD) services, helping global banking clients meet strict regulatory standards using Nest Js, GraphQL and MongoDB.`,
 				`Developed and implemented unit tests using Jest in Nest Js, achieving over <strong>90%</strong> test coverage for new features, significantly reducing production bugs, and enhancing application stability.`, `Engineered and optimized frontend components for banking application onboarding using Next.js, integrating GraphQL, Redux Toolkit, and React Hook Form. Applied Factory and Decorator design patterns to streamline data management and enhance code readibility and maintainability.`,
 			]
