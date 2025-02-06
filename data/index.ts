@@ -58,11 +58,12 @@ const userData: IData = {
 			company: 'Rana Dev',
 			companyLink: "ranadev.io/",
 			location: 'USA | Remote',
-			duration: 'Mar 2024 - Present',
+			duration: 'Mar 2023 - Present',
 			tasks: [
 				`Engineered RESTful APIs for a FinTech application to onboard individual and company customers with third-party banking partners, utilizing NestJS and MongoDB for secure and seamless data exchange, reducing onboarding time by <strong>40%</strong> and increasing completion rates by <strong>30%</strong>.`,
 				`Intergrated <strong>Know Your Customer</strong> (KYC) and <strong>Customer Due Diligence</strong> (CDD) services, helping global banking clients meet strict regulatory standards using Nest Js, GraphQL and MongoDB.`,
 				`Developed and implemented unit tests using Jest in Nest Js, achieving over <strong>90%</strong> test coverage for new features, significantly reducing production bugs, and enhancing application stability.`, `Engineered and optimized frontend components for banking application onboarding using Next.js, integrating GraphQL, Redux Toolkit, and React Hook Form. Applied Factory and Decorator design patterns to streamline data management and enhance code readibility and maintainability.`,
+				`Containerized microservices using Docker to streamline development workows, enabling consistent environments across development, staging, and production. Reduced deployment time by <strong>50%</strong> and improved overall system scalability`
 			]
 		},
 		{
@@ -71,7 +72,7 @@ const userData: IData = {
 			company: 'Dubizzle',
 			companyLink: "dubizzle.com",
 			location: 'Dubai, UAE',
-			duration: 'Jan 2023 - Mar 2024',
+			duration: 'Jan 2022 - Mar 2023',
 			tasks: [
 				`Engineered <a href = "https://www.dubizzle.com/cars/services/sell-my-car">Dubizzle's Car Ad Post Feature</a> by developing dynamic forms using Formik in React with Redux Toolkit, significantly enhancing the car buying and selling process, that led to a contribution towards <strong>$1 M</strong> monthly revenue.`,
 				`Engineered the Car Auction Negotiation Feature using Firebase, significantly enhancing the user experience for over <strong>100,000 users</strong> on the Dubizzle Car Service platform.`,
@@ -85,13 +86,14 @@ const userData: IData = {
 			company: 'Trade Hat',
 			companyLink: "app.tradehat.com",
 			location: 'USA | Remote',
-			duration: 'Sept 2021 - Jan 2023',
+			duration: 'Sept 2019 - Jan 2022',
 			tasks: [
 				`Optimized Webapp's bundle size by <strong>15%</strong> through lazy loading, CSS purging, and migration to lightweight libraries in Vue js, resulting in a faster loading time and enhanced user experience.`,
 				`Implemented <strong>Refresh Token Rotation</strong> based Authentication in Node.js to enhance API security, significantly reducing the risk of data breaches and strengthening data confidentiality.`
 				,
 				`Developed a scalable WebSocket server with Node.js and the WS library, integrated with RabbitMQ for <strong>Streaming real-time tickers'</strong> information and notifications. Monitored client heartbeat and efficiently <strong>pruned idle connections</strong> to conserve resources.`,
 				`Designed reusable UI components in Vue.js with the <strong>Decorator Pattern</strong>, improving code maintainability and development efficiency across multiple projects.`,
+				`Implemented a highly available, scalable Docker-based microservices architecture that improved application performance by <strong>25%</strong>. Successfully migrated 20+ services to Kubernetes.`
 			]
 		},
 	],
