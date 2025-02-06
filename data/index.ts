@@ -7,7 +7,7 @@ const userData: IData = {
 		phoneNumber: '+923124108473',
 		// location: 'Berlin, Germany',
 		website: "abdullahch.dev",
-		email: 'abdullahchaudharry@gmail.com',
+		email: 'shogun.1072000@gmail.com',
 		linkedIn: 'linkedin.com/in/abdullah-ch/',
 		github: 'github.com/abdullah-ch'
 	},
