@@ -85,7 +85,7 @@ const userData: IData = {
 			company: 'Trade Hat',
 			companyLink: "app.tradehat.com",
 			location: 'USA | Remote',
-			duration: 'Sept 2021 - Jan 2023',
+			duration: 'Jan 2021 - Feb 2023',
 			tasks: [
 				`Optimized Webapp's bundle size by <strong>15%</strong> through lazy loading, CSS purging, and migration to lightweight libraries in Vue js, resulting in a faster loading time and enhanced user experience.`,
 				`Implemented <strong>Refresh Token Rotation</strong> based Authentication in Node.js to enhance API security, significantly reducing the risk of data breaches and strengthening data confidentiality.`
