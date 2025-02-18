@@ -64,10 +64,12 @@ const Header = () => {
 						{linkedIn.urlWithOutHttps}
 					</a>
 				</span>
+				<IF condition={!!header.github}>
 				<span>|</span>
 				<span className="text-blue-500">
 					<a href={gitHub.urlWithHttps}>{gitHub.urlWithOutHttps}</a>
 				</span>
+				</IF>
 			</div>
 		</div>
 	);

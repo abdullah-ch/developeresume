@@ -3,20 +3,20 @@ import { IData } from '@/types';
 
 const userData: IData = {
 	header: {
-		name: 'Abdullah Ch',
-		phoneNumber: '+923124108473',
+		name: 'Ash Faisal',
+		phoneNumber: '+1 (631) 633-4418',
 		// location: 'Berlin, Germany',
-		website: "abdullahch.dev",
-		email: 'abdullahchaudharry@gmail.com',
-		linkedIn: 'linkedin.com/in/abdullah-ch/',
-		github: 'github.com/abdullah-ch'
+		// website: "abdullahch.dev",
+		email: 'anushafaisal340@gmail.com',
+		linkedIn: 'linkedin.com/in/anusha-faisal/',
+		// github: 'github.com/abdullah-ch'
 	},
 	education: [
 		{
 			id: uuidv4(),
 			degree: 'B.Sc. of Computer Sciences',
-			university: 'Information Technology University',
-			location: 'Lahore, Pakistan',
+			university: `St. Joseph's University New York`,
+			location: 'New York, USA',
 			// duration: 'Oct 2018 - May 2022'
 		}
 	],
@@ -42,7 +42,8 @@ const userData: IData = {
 				'Styled Components',
 				'MongoDB',
 				'Node.js',
-				'REST APIs'
+				'REST APIs',
+				'Python'
 			]
 		},
 		{
@@ -54,9 +55,9 @@ const userData: IData = {
 	experience: [
 		{
 			id: uuidv4(),
-			designation: 'Senior Software Engineer',
-			company: 'Rana Dev',
-			companyLink: "ranadev.io/",
+			designation: 'Software Engineer L3 via Turing.com',
+			company: 'Meta',
+			companyLink: "meta.com/",
 			location: 'USA | Remote',
 			duration: 'Mar 2023 - Present',
 			tasks: [
@@ -68,24 +69,24 @@ const userData: IData = {
 		},
 		{
 			id: uuidv4(),
-			designation: 'Software Engineer II',
-			company: 'Dubizzle',
-			companyLink: "dubizzle.com",
-			location: 'Dubai, UAE',
+			designation: 'Software Engineer L3',
+			company: 'Turing',
+			companyLink: "turing.com",
+			location: 'Palo Alto, California /On-site',
 			duration: 'Jan 2022 - Mar 2023',
 			tasks: [
-				`Engineered <a href = "https://www.dubizzle.com/cars/services/sell-my-car">Dubizzle's Car Ad Post Feature</a> by developing dynamic forms using Formik in React with Redux Toolkit, significantly enhancing the car buying and selling process, that led to a contribution towards <strong>$1 M</strong> monthly revenue.`,
-				`Engineered the Car Auction Negotiation Feature using Firebase, significantly enhancing the user experience for over <strong>100,000 users</strong> on the Dubizzle Car Service platform.`,
-				`Implemented Call Quality Control (QC) feature using custom hooks and factory, decorator patterns in React, for supervising Dubizzle Cars field agents, leading to a <strong>20%</strong> increase in the closing rate of sales leads by enhancing the quality and consistency of customer interactions.`,
+				`Engineered Turing's Labelling Tool Feature by developing dynamic forms using Formik in React with Redux Toolkit, significantly enhancing the car buying and selling process, that led to a contribution towards <strong>$1 M</strong> monthly revenue.`,
+				`Engineered the Internal code review tool using Firebase, significantly enhancing the user experience for over <strong>100,000 users</strong> on the Turing platform.`,
+				`Implemented Call Quality Control (QC) feature using custom hooks and factory, decorator patterns in React, for supervising HR team, leading to a <strong>20%</strong> increase in the closing rate of sales leads by enhancing the quality and consistency of customer interactions.`,
 				`Elevated code quality and maintainability by refactoring component code to TypeScript, improving <strong>50% </strong> of the codebase and reducing bugs significantly.`
 			]
 		},
 		{
 			id: uuidv4(),
-			designation: 'Full Stack Software Engineer (MERN/MEVN)',
-			company: 'Trade Hat',
-			companyLink: "app.tradehat.com",
-			location: 'USA | Remote',
+			designation: 'Software Engineer L2',
+			company: 'Tkxel',
+			companyLink: "tkxel.com",
+			location: 'Reston, VA | On-site',
 			duration: 'Sept 2019 - Jan 2022',
 			tasks: [
 				`Optimized Webapp's bundle size by <strong>15%</strong> through lazy loading, CSS purging, and migration to lightweight libraries in Vue js, resulting in a faster loading time and enhanced user experience.`,
@@ -100,24 +101,23 @@ const userData: IData = {
 	projects: [
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/abdullah-ch/websockets-authentication-server">Refresh Token Rotation</a>`,
+			name: `Refresh Token Rotation`,
 			desc: `Implemented <strong>Refresh Token Rotation Authentication System</strong> with <strong>Hacker Detection</strong> for improved security and lower risk of token leakage using <strong>Express, Mongodb, and Node.</strong> Enabled <strong>Automatic Retry Mechanism</strong> for Failed APIs with Stale Access Tokens, enhancing the user experience using React JS.`,
 		},
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/abdullah-ch/websockets-authentication-server">Websockets Authentication Server</a>`,
+			name: `Websockets Authentication Server`,
 			desc: `Created a secure and efficient <strong>Authenticated WebSocket Server</strong> built in <strong>Node.js</strong> with the <strong>ws library</strong>. Features include exclusive authenticated connections, proactive ping messages to prevent inactivity termination, and smart heartbeat monitoring.`,
 		},
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/abdullah-ch/Anime-Tracker-Web-App">Anime Tracker Web App</a>`,
+			name: `Anime Tracker Web App`,
 			desc: `Developed a responsive web app for browsing, searching, and discovering anime titles, featuring a clean UI with daily updates, top-rated lists, and upcoming releases. Leveraged React, Redux, and RESTful APIs to implement <strong>advanced search, genre browsing, and seasonal catalogs</strong>.`
 			,
 		},
 	],
 	accomplishments: [
-		`Ranked among the top 10 percent of software engineers, earning over 210+ upvotes on <a href="https://stackoverflow.com/users/13708712/abdullah-ch">Stackoverflow</a>. Contributions through questions and answers have positively impacted more than <strong>6 million</strong> software engineers worldwide.`,
-		`Established a notable presence on <a href="https://github.com/abdullah-ch">GitHub</a> with diverse JavaScript technology contributions, collectively amassing over 100 stars for my projects.`,
+		`Ranked among the top 10 percent of software engineers, earning over 210+ upvotes on Stackoverflow. Contributions through questions and answers have positively impacted more than <strong>6 million</strong> software engineers worldwide.`,
 	]
 };
 
