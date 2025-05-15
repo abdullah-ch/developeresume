@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { IData } from '@/types';
 
 const userData: IData = {
+	summary: `Senior Software Engineer with 5+ years of experience building scalable JavaScript and TypeScript applications with modern architecture and testing practices.`,
 	header: {
 		name: 'Abdullah Ch',
 		phoneNumber: '+923124108473',
